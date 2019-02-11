@@ -1,0 +1,9 @@
+---
+name: Registros
+locale: es
+type: learning
+beta: false
+language: javascript
+id_format: "%05d"
+order: []
+private: false
