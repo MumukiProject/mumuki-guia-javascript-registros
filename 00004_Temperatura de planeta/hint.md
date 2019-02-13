@@ -1,0 +1,3 @@
+¡Prestá atención a los strings que devuelven los ejemplos! Sólo la parte correspondiente a cada planeta varía, como el `nombre` y la `temperatura`. Mirá…
+
+> `nombre` tiene una temperatura promedio de `temperatura` grados
