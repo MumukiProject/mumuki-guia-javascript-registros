@@ -3,6 +3,6 @@ En el ejercicio anterior modificamos la ruta del registro, pero no utilizamos su
 > Desarrollá la función `esDelMilenioPasado`, que recibe un archivo y devuelve un booleano.
 
 > ```javascript
-ム esDelMilenioPasado({ "ruta" : "D:\fotonacimiento.jpg", "creacion" : "14/09/1989" })
+ム esDelMilenioPasado({ ruta: "D:\fotonacimiento.jpg", creacion: "14/09/1989" })
 => true
 ```
