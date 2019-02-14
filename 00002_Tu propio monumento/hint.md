@@ -3,5 +3,5 @@ Quizá te sea útil ver cómo declaramos algún monumento en el ejercicio anteri
 Por ejemplo, esta es la Torre Eiffel:
 
 ```javascript
-let torreEiffel = { "nombre" : "Torre Eiffel", "locacion" : "París, Francia", "añoDeConstruccion": 1889 }
+let torreEiffel = { nombre: "Torre Eiffel", locacion: "París, Francia", anioDeConstruccion: 1889 };
 ```
