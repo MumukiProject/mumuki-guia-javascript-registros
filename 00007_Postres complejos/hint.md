@@ -1,0 +1,1 @@
+Si los dos postres tienen la misma cantidad de ingredientes, podés devolver cualquiera de los dos. :satisfied:
