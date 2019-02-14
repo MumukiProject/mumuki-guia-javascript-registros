@@ -3,12 +3,12 @@ Una historiadora está recopilando información acerca de distintos monumentos a
 Para eso almacenó cada dato en una variable:
 
 ```javascript
-nombreEstatuaDeLaLibertad = "Estatua de la Libertad"
-locacionEstatuaDeLaLibertad = "Nueva York"
-añoEstatuaDeLaLibertad = "1886"
-nombreCristoRedentor = "Cristo Redentor"
-locacionCristoRedentor = "Rio De Janeiro"
-añoCristoRedentor = "1931"
+nombreEstatuaDeLaLibertad = "Estatua de la Libertad";
+locacionEstatuaDeLaLibertad = "Nueva York";
+añoEstatuaDeLaLibertad = "1886";
+nombreCristoRedentor = "Cristo Redentor";
+locacionCristoRedentor = "Rio De Janeiro";
+añoCristoRedentor = "1931";
 ```
 
 Ahí es cuando se dio cuenta que no era conveniente :unamused:: si bien la información entre las variables estaba relacionada, la estaba almacenando por separado. Entonces pensó: ¿no existirá alguna forma de representar las distintas características o propiedades de una misma cosa de forma agrupada? 
