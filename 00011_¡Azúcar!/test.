@@ -7,3 +7,4 @@ describe("", function() {
     assert.equal(menu.postre.ingredientes.length, 3);
     assert.equal(menu.postre.ingredientes.slice(-1).pop(), "azúcar");
 })
+})
