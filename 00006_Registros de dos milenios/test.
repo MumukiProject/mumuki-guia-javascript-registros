@@ -1,16 +1,16 @@
 describe("", function() {
   it("Un archivo del 2012 no es del milenio pasado", function() {
-    archivo = {ruta:"", creacion:"01/01/2012"}
+    let archivo = {ruta:"", creacion:"01/01/2012"};
     assert.isFalse(esDelMilenioPasado(archivo));
   })
   
   it("Un archivo de enero del 2000 no es del milenio pasado", function() {
-    archivo = {ruta:"", creacion:"01/01/2000"}
+    let archivo = {ruta:"", creacion:"01/01/2000"};
     assert.isFalse(esDelMilenioPasado(archivo));
   })
   
   it("Un archivo de 1994 es del milenio pasado", function() {
-    archivo = {ruta:"", creacion:"23/09/1994"}
+    let archivo = {ruta:"", creacion:"23/09/1994"};
     assert.isTrue(esDelMilenioPasado(archivo));
   })
 })
