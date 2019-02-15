@@ -14,6 +14,6 @@ describe("", function() {
   
   it("Si dos postres son igual de difíciles de cocinar, devuelve cualquiera de los dos", function() {
     let masDificil = masDificilDeCocinar(flanCasero, lemonPie);
-    assert.equal(masDificil, flanCasero) || assert.equal(masDificil, lemonPie);
+    assert(masDificil == flanCasero || masDificil == lemonPie);
   })
 })
