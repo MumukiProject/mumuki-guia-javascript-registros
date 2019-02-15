@@ -4,7 +4,7 @@ La sintaxis para modificar campos de registros es muy similar a lo que hacemos p
 
 ```javascript
 ム leeme
-=> { ruta: "C:\leeme.txt", creacion: "23/09/2004" }
+=> 
 
 ム moverArchivo(leeme, "C:\documentos\leeme.txt") }
 ```
