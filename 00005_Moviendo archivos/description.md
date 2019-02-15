@@ -21,4 +21,4 @@ Luego el registro `leeme` tendrá modificada su ruta:
 => { ruta: "C:\documentos\leeme.txt", creacion: "23/09/2004" }
 ```
 
-> ¡Es tu turno! Desarrollá el procedimiento `moverArchivo`, que recibe un registro y una nueva ruta y devuelve el archivo modificado con la nueva ruta.
+> ¡Es tu turno! Desarrollá una función `moverArchivo`, que recibe un registro y una nueva ruta y devuelve el archivo modificado con la nueva ruta.
