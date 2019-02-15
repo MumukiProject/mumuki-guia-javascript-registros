@@ -8,6 +8,6 @@ describe("", function() {
     let postreDeLeche = {ingredientes:["leche"], tiempoDeCoccion:30};
     agregarAPostresRapidos(postreDeLeche);
     assert.equal(postresRapidos.length, 3);
-    assert.equal(postresRapidos.slice(-1).pop(), postreDeLeche)
+    assert.equal(postresRapidos.slice(-1), postreDeLeche);
   })
 })
