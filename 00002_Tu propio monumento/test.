@@ -1,6 +1,6 @@
 describe("", function() {
   it("torreAzadi se llama Torre Azadi", function() {
-    assert.equal(toLowercase(torreAzadi.nombre), "torre azadi");
+    assert.equal(torreAzadi.nombre.toLowercase(), "torre azadi");
   })
 })
 
@@ -18,7 +18,7 @@ describe("", function() {
 
 describe("", function() {
   it("monumentoNacionalALaBandera se llama Monumento Nacional a la Bandera", function() {
-    assert.equal(toLowercase(monumentoNacionalALaBandera.nombre), "monumento nacional a la bandera");
+    assert.equal(monumentoNacionalALaBandera.nombre.toLowercase(), "monumento nacional a la bandera");
   })
 })
 
