@@ -1,1 +1,0 @@
-let postresRapidos = [ { ingredientes: ["galletitas", "dulceDeLeche", "crema"], tiempoDeCoccion: 20 }, { ingredientes: ["huevos", "leche", "azúcar", "vainilla"], tiempoDeCoccion: 50 } ];
