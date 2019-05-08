@@ -10,7 +10,7 @@ describe("", function() {
 
   it("endulzarMenu le agrega azúcar al postre", function() {
     
-    let menu = {platoPrincipal: "milanesa", ensalada: ["lechuga", "cebolla"], postre: { ingredientes: ["dulce de leche", "vainilla". "azúcar"], tiempoDeCoccion: 30 }};
+    let menu = {platoPrincipal: "milanesa", ensalada: ["lechuga", "cebolla"], postre: { ingredientes: ["dulce de leche", "vainilla", "azúcar"], tiempoDeCoccion: 30 }};
     endulzarMenu(menu);
     
     assert.equal(menu.postre.ingredientes.length, 4);
