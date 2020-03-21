@@ -4,5 +4,5 @@ En el ejercicio anterior modificamos la ruta del registro, pero no utilizamos su
 
 > ```javascript
 ム esDelMilenioPasado({ ruta: "D:\fotonacimiento.jpg", creacion: "14/09/1989" })
-=> true
+true
 ```

@@ -12,5 +12,5 @@ let lemonPie = { ingredientes: ["jugo de limón", "almidón de maíz", "leche", 
 
 > ```javascript
 ム masDificilDeCocinar(flanCasero, cheesecake)
-=> { ingredientes: ["huevos", "leche", "azúcar", "vainilla"], tiempoDeCoccion: 50 }
+{ ingredientes: ["huevos", "leche", "azúcar", "vainilla"], tiempoDeCoccion: 50 }
 ```

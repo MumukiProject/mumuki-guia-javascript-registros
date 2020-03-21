@@ -9,7 +9,7 @@ Ahora imaginá que tenemos un registro para representar un archivo, del que sabe
 
 ```javascript
 ム leeme
-=> { ruta: "C:\leeme.txt", creacion: "23/09/2004" }
+{ ruta: "C:\leeme.txt", creacion: "23/09/2004" }
 
 ム moverArchivo(leeme, "C:\documentos\leeme.txt") }
 ```
@@ -18,7 +18,7 @@ Luego el registro `leeme` tendrá modificada su ruta:
 
 ```javascript
 ム leeme
-=> { ruta: "C:\documentos\leeme.txt", creacion: "23/09/2004" }
+{ ruta: "C:\documentos\leeme.txt", creacion: "23/09/2004" }
 ```
 
 > ¡Es tu turno! Desarrollá el procedimiento `moverArchivo`, que recibe un registro y una nueva ruta y modifica el archivo con la nueva ruta.
