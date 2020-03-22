@@ -1,0 +1,2 @@
+expectation "no usa más de un `if`":
+  count(uses if) <= 1;
