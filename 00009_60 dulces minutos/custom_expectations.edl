@@ -1,2 +1,2 @@
-expectation "no usa más de un `if`":
+expectation "no usa más de un `if` (con uno sólo alcanza)":
   count(uses if) <= 1;
