@@ -5,3 +5,9 @@ rules:
     these_expectations_failed:
     - "* Not:SourceContains:return"
   then: recordá que los procedimientos no deben devolver nada; no uses `return`
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - "* Not:Uses:remover"
+  then: sólo tenés que agregar el `postre` a la `lista` si corresponde; en caso contrario
+    no tenés que removerlo
