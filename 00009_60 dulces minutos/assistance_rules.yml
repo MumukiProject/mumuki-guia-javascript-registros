@@ -10,4 +10,4 @@ rules:
     these_expectations_failed:
     - "* Not:Uses:remover"
   then: sólo tenés que agregar el `postre` a la `lista` _si corresponde_; en caso
-    contrario no tenés que removerlo (porque no está aún allí :wink:)
+    contrario no tenés que removerlo
