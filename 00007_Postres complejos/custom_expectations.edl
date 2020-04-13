@@ -1,0 +1,2 @@
+expectation "`masDificilDeCocinar` no necesita emplear operadores lógicos": 
+  ! uses logic;
