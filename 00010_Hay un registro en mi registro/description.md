@@ -2,7 +2,7 @@
 
 ¡No se puede vivir a base de postres! Bueno, quizás sí, pero mantengamos una alimentación saludable :stuck_out_tongue_winking_eye:. Mediante un registro queremos modelar un menú completo: consiste en un plato principal :curry:, los vegetales de la ensalada que acompaña :tomato:, y un postre :custard: como lo veníamos trabajando, es decir, sigue siendo un registro.
 
-Por ejemplo, el siguiente es un menú con bife de lomo como plato principal, una ensalada de lechuga, tomate y zanahoria como acompañamiento y un cheesecake de postre. Como el registro es un poco extenso, y para que sea más legible, lo vamos a escribir de la siguiente forma:
+Por ejemplo, el siguiente es un menú con bife de lomo como plato principal, una ensalada de papa, zanahoria y arvejas como acompañamiento y un cheesecake de postre. Como el registro es un poco extenso, y para que sea más legible, lo vamos a escribir de la siguiente forma:
 
 ```javascript
 let menuDelDia = {
