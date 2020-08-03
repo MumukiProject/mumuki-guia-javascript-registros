@@ -1,3 +1,4 @@
+/*<hidden-for-student@*/
 let menuDelDia = {
   platoPrincipal: "bife de lomo",
   ensalada: ["papa", "zanahoria", "arvejas"],
@@ -9,3 +10,4 @@ let menuInfantil = {
   ensalada: ["lechuga", "tomate", "zanahoria"],
   postre: { ingredientes: ["galletitas", "dulce de leche", "crema"], tiempoDeCoccion: 20 }
 };
+/*@hidden-for-student>*/
