@@ -5,7 +5,7 @@ describe("", function() {
     endulzarMenu(menu);
     
     assert.equal(menu.postre.ingredientes.length, 3);
-    assert.equal(menu.postre.ingredientes.slice(-1).pop(), "azúcar");
+    assert(menu.postre.ingredientes.slice(-1).pop() === "azúcar" || menu.postre.ingredientes.slice(-1).pop() === "azucar");
   })
 
   it("endulzarMenu le agrega azúcar al postre", function() {
@@ -13,7 +13,6 @@ describe("", function() {
     let menu = {platoPrincipal: "milanesa", ensalada: ["lechuga", "cebolla"], postre: { ingredientes: ["dulce de leche", "vainilla", "azúcar"], tiempoDeCoccion: 30 }};
     endulzarMenu(menu);
     
-    assert.equal(menu.postre.ingredientes.length, 4);
-    assert.equal(menu.postre.ingredientes.slice(-1).pop(), "azúcar");
+    assert(menu.postre.ingredientes.slice(-1).pop() === "azúcar" || menu.postre.ingredientes.slice(-1).pop() === "azucar");
   })
 })
