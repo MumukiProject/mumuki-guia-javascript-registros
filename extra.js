@@ -6,35 +6,41 @@
 // =============
 /*@hidden-for-student>*/
 
-// Nos dice cuan largo es un string
+function longitud(unString) /*<elipsis-for-student@*/ {
+  return unString.length;
+} /*@elipsis-for-student>*/
+// Retorna cuan largo es un string
 //
 // Por ejemplo:
 //
 //  ム longitud("hola")
 //  4
-function longitud(unString) /*<elipsis-for-student@*/ {
-  return unString.length;
-} /*@elipsis-for-student>*/
 
+//==============================================================
+
+function convertirEnMayuscula(unString) /*<elipsis-for-student@*/ {
+  return unString.toUpperCase()
+} /*@elipsis-for-student>*/
 // Convierte una palabra en mayúsculas
 //
 // Por ejemplo:
 //
 //  ム convertirEnMayuscula("hola")
 //  "HOLA"
-function convertirEnMayuscula(unString) /*<elipsis-for-student@*/ {
-  return unString.toUpperCase()
-} /*@elipsis-for-student>*/
 
-// Nos dice si unString empieza con otroString
+//==============================================================
+
+function comienzaCon(unString, otroString) /*<elipsis-for-student@*/ {
+  return unString.startsWith(otroString);
+} /*@elipsis-for-student>*/
+// Retorna un booleano que nos dice si unString empieza con otroString
 //
 // Por ejemplo:
 //
 //  ム comienzaCon("hola todo el mundo", "hola todo")
 //  true
-function comienzaCon(unString, otroString) /*<elipsis-for-student@*/ {
-  return unString.startsWith(otroString);
-} /*@elipsis-for-student>*/
+
+//==============================================================
 
 /*<hidden-for-student@*/
 // ==============
@@ -65,17 +71,22 @@ function setUpRealConsole() {
 setUpFakeConsole();
 /*@hidden-for-student>*/
 
+function imprimir(unString) /*<elipsis-for-student@*/ {
+  fakeConsole.log(unString)
+} /*@elipsis-for-student>*/
 // Imprime por pantalla unString
 //
 // Por ejemplo:
 //
 //  ム imprimir("¡estoy imprimiendo!")
 //  ¡estoy imprimiendo!
-function imprimir(unString) /*<elipsis-for-student@*/ {
-  fakeConsole.log(unString)
-} /*@elipsis-for-student>*/
 
-// Devuelve al azar un número entre 1 y 6
+//==============================================================
+
+function tirarDado() /*<elipsis-for-student@*/ {
+  return Math.floor(Math.random() * 6) + 1
+} /*@elipsis-for-student>*/
+// Retorna un número al azar entre 1 y 6
 //
 // Por ejemplo:
 //
@@ -85,9 +96,8 @@ function imprimir(unString) /*<elipsis-for-student@*/ {
 //  1
 //  ム tirarDado()
 //  2
-function tirarDado() /*<elipsis-for-student@*/ {
-  return Math.floor(Math.random() * 6) + 1
-} /*@elipsis-for-student>*/
+
+//==============================================================
 
 
 /*<hidden-for-student@*/
@@ -109,8 +119,21 @@ function listasIguales(unArray, otroArray) /*<elipsis-for-student@*/ {
     }
     return true;
 } /*@elipsis-for-student>*/
+// Retorna un booleano que nos dice si dos listas son iguales
+//
+// Por ejemplo:
+//
+//  ム listasIguales([1, 2, 3], [1, 2, 3])
+//  true
+//  ム listasIguales([1, 2, 3], [4, 5, 3])
+//  false
 
-// Nos dice cuan largo es un string o lista
+//==============================================================
+
+function longitud(unStringOLista) /*<elipsis-for-student@*/ {
+  return unStringOLista.length;
+} /*@elipsis-for-student>*/
+// Retorna el largo de un string o una lista
 //
 // Por ejemplo:
 //
@@ -118,35 +141,40 @@ function listasIguales(unArray, otroArray) /*<elipsis-for-student@*/ {
 //  4
 //  ム longitud([5, 6, 3])
 //  3
-function longitud(unStringOLista) /*<elipsis-for-student@*/ {
-  return unStringOLista.length;
-} /*@elipsis-for-student>*/
 
+//==============================================================
+
+function agregar(unaLista, unElemento) /*<elipsis-for-student@*/ {
+  return unaLista.push(unElemento);
+} /*@elipsis-for-student>*/
 // Inserta unElemento al final de unaLista.
-// Este es un procedimiento que no devuelve nada pero modifica a unaLista:
+// Este es un procedimiento que no retorna nada pero modifica a unaLista:
 //
 //  ム let cancionesFavoritas = ["La colina de la vida", "Zamba por vos"]
 //  ム agregar(cancionesFavoritas, "Seminare")
 //  ム cancionesFavoritas
 //  ["La colina de la vida", "Zamba por vos", "Seminare"]
-function agregar(unaLista, unElemento) /*<elipsis-for-student@*/ {
-  return unaLista.push(unElemento);
-} /*@elipsis-for-student>*/
 
-// Quita el último elemento de unaLista y lo devuelve.
+//==============================================================
+
+function remover(unaLista) /*<elipsis-for-student@*/ {
+  return unaLista.pop();
+} /*@elipsis-for-student>*/
+// Quita el último elemento de unaLista y lo retorna.
 //
 //  ム let listaDeCompras = ["leche", "pan", "arroz", "aceite", "yerba"]
 //  ム remover(listaDeCompras)
 //  "yerba"
 //  ム listaDeCompras
 //  ["leche", "pan", "arroz", "aceite"]
-function remover(unaLista) /*<elipsis-for-student@*/ {
-  return unaLista.pop();
+
+//==============================================================
+
+function posicion(unaLista, unElemento) /*<elipsis-for-student@*/ {
+  return unaLista.indexOf(unElemento);
 } /*@elipsis-for-student>*/
-
-
-// Nos dice en qué posición se encuentra un elemento.
-// Si el elemento no está en la lista, devuelve -1
+// Retorna la posición se encuentra un elemento.
+// Si el elemento no está en la lista, retorna -1
 //
 //  ム let premios = ["dani", "agus", "juli", "fran"]
 //  ム posicion(premios, "dani")
@@ -155,6 +183,3 @@ function remover(unaLista) /*<elipsis-for-student@*/ {
 //  2
 //  ム posicion(premios, "feli")
 //  -1
-function posicion(unaLista, unElemento) /*<elipsis-for-student@*/ {
-  return unaLista.indexOf(unElemento);
-} /*@elipsis-for-student>*/
