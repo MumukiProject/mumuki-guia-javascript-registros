@@ -16,7 +16,6 @@ function longitud(unString) /*<elipsis-for-student@*/ {
 //  ム longitud("hola")
 //  4
 
-//==============================================================
 
 function convertirEnMayuscula(unString) /*<elipsis-for-student@*/ {
   return unString.toUpperCase()
@@ -28,7 +27,6 @@ function convertirEnMayuscula(unString) /*<elipsis-for-student@*/ {
 //  ム convertirEnMayuscula("hola")
 //  "HOLA"
 
-//==============================================================
 
 function comienzaCon(unString, otroString) /*<elipsis-for-student@*/ {
   return unString.startsWith(otroString);
@@ -39,8 +37,6 @@ function comienzaCon(unString, otroString) /*<elipsis-for-student@*/ {
 //
 //  ム comienzaCon("hola todo el mundo", "hola todo")
 //  true
-
-//==============================================================
 
 /*<hidden-for-student@*/
 // ==============
@@ -81,7 +77,6 @@ function imprimir(unString) /*<elipsis-for-student@*/ {
 //  ム imprimir("¡estoy imprimiendo!")
 //  ¡estoy imprimiendo!
 
-//==============================================================
 
 function tirarDado() /*<elipsis-for-student@*/ {
   return Math.floor(Math.random() * 6) + 1
@@ -97,7 +92,6 @@ function tirarDado() /*<elipsis-for-student@*/ {
 //  ム tirarDado()
 //  2
 
-//==============================================================
 
 
 /*<hidden-for-student@*/
@@ -128,7 +122,6 @@ function listasIguales(unArray, otroArray) /*<elipsis-for-student@*/ {
 //  ム listasIguales([1, 2, 3], [4, 5, 3])
 //  false
 
-//==============================================================
 
 function longitud(unStringOLista) /*<elipsis-for-student@*/ {
   return unStringOLista.length;
@@ -142,7 +135,6 @@ function longitud(unStringOLista) /*<elipsis-for-student@*/ {
 //  ム longitud([5, 6, 3])
 //  3
 
-//==============================================================
 
 function agregar(unaLista, unElemento) /*<elipsis-for-student@*/ {
   return unaLista.push(unElemento);
@@ -155,7 +147,6 @@ function agregar(unaLista, unElemento) /*<elipsis-for-student@*/ {
 //  ム cancionesFavoritas
 //  ["La colina de la vida", "Zamba por vos", "Seminare"]
 
-//==============================================================
 
 function remover(unaLista) /*<elipsis-for-student@*/ {
   return unaLista.pop();
@@ -168,7 +159,6 @@ function remover(unaLista) /*<elipsis-for-student@*/ {
 //  ム listaDeCompras
 //  ["leche", "pan", "arroz", "aceite"]
 
-//==============================================================
 
 function posicion(unaLista, unElemento) /*<elipsis-for-student@*/ {
   return unaLista.indexOf(unElemento);
