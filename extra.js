@@ -92,8 +92,6 @@ function tirarDado() /*<elipsis-for-student@*/ {
 //  ム tirarDado()
 //  2
 
-
-
 /*<hidden-for-student@*/
 // =========
 // Lección 5
