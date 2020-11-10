@@ -8,5 +8,5 @@ Ahora que agregamos registros de planetas, ¡trabajemos un poco con ellos! :musc
 ム temperaturaDePlaneta(saturno)
 "Saturno tiene una temperatura promedio de -139 grados"
 ム temperaturaDePlaneta(venus)
-"Mercurio tiene una temperatura promedio de 462 grados"
+"Venus tiene una temperatura promedio de 462 grados"
 ```
