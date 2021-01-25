@@ -11,7 +11,7 @@ Ahora imaginá que tenemos un registro para representar un archivo, del que sabe
 ム leeme
 { ruta: "C:\leeme.txt", creacion: "23/09/2004" }
 
-ム moverArchivo(leeme, "C:\documentos\leeme.txt") }
+ム moverArchivo(leeme, "C:\documentos\leeme.txt") 
 ```
 
 Luego el registro `leeme` tendrá modificada su ruta:
