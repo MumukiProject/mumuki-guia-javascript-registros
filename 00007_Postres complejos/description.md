@@ -8,7 +8,7 @@ let cheesecake = { ingredientes: ["queso crema", "frambuesas"], tiempoDeCoccion:
 let lemonPie = { ingredientes: ["jugo de limón", "almidón de maíz", "leche", "huevos"], tiempoDeCoccion: 65 }
 ```
 
-> Creá una función `masDificilDeCocinar`, que recibe dos registros de postres por parámetros y devuelve el que tiene más ingredientes de los dos.
+> Definí la función `masDificilDeCocinar`, que recibe dos registros de postres como argumentos y retorna el que tiene más ingredientes de los dos.
 
 > ```javascript
 ム masDificilDeCocinar(flanCasero, cheesecake)
