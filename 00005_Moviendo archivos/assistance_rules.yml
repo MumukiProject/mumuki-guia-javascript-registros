@@ -1,0 +1,8 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - moverArchivo Not:Returns
+  then: Tené en cuenta que los procedimientos no deben retornar nada y sí tienen un
+    efecto, a diferencia de las funciones.
