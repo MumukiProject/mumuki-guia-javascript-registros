@@ -135,7 +135,7 @@ function longitud(unStringOLista) /*<elipsis-for-student@*/ {
 
 
 function agregar(unaLista, unElemento) /*<elipsis-for-student@*/ {
-  return unaLista.push(unElemento);
+  unaLista.push(unElemento);
 } /*@elipsis-for-student>*/
 // Inserta unElemento al final de unaLista.
 // Este es un procedimiento que no retorna nada pero modifica a unaLista:
@@ -146,22 +146,24 @@ function agregar(unaLista, unElemento) /*<elipsis-for-student@*/ {
 //  ["La colina de la vida", "Zamba por vos", "Seminare"]
 
 
-function remover(unaLista) /*<elipsis-for-student@*/ {
-  return unaLista.pop();
-} /*@elipsis-for-student>*/
-// Quita el último elemento de unaLista y lo retorna.
+function remover(unaLista, unElemento) /*<elipsis-for-student@*/ {
+  let posicion = unaLista.indexOf(unElemento);
+  if (posicion > -1) {
+    unaLista.splice(posicion, 1);
+  }
+}/*@elipsis-for-student>*/
+// Quita unElemento de unaLista. En caso de que no esté, no hace nada.
+// Este es un procedimiento que no retorna nada pero modifica a unaLista:
 //
 //  ム let listaDeCompras = ["leche", "pan", "arroz", "aceite", "yerba"]
-//  ム remover(listaDeCompras)
-//  "yerba"
+//  ム remover(listaDeCompras, "pan")
 //  ム listaDeCompras
-//  ["leche", "pan", "arroz", "aceite"]
-
+//  ["leche", "arroz", "aceite", "yerba"]
 
 function posicion(unaLista, unElemento) /*<elipsis-for-student@*/ {
   return unaLista.indexOf(unElemento);
 } /*@elipsis-for-student>*/
-// Retorna la posición se encuentra un elemento.
+// Retorna la posición en que se encuentra unElemento en unaLista.
 // Si el elemento no está en la lista, retorna -1
 //
 //  ム let premios = ["dani", "agus", "juli", "fran"]
