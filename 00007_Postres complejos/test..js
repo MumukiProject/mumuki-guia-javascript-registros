@@ -1,7 +1,7 @@
 describe("", function() {
   
   let flanCasero = { ingredientes: ["huevos", "leche", "azúcar", "vainilla"], tiempoDeCoccion: 50 }
-  let cheesecake = { ingredientes: ["queso crema", "frambuesas"], tiempoDeCoccion: 80 }
+  let cheesecake = { ingredientes: ["frambuesas", "queso crema"], tiempoDeCoccion: 80 }
   let lemonPie = { ingredientes: ["jugo de limón", "almidón de maíz", "leche", "huevos"], tiempoDeCoccion: 65 }
 
   it("El flan casero es más difícil de cocinar que el cheesecake", function() {
