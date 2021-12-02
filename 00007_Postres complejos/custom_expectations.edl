@@ -1,2 +1,5 @@
 expectation "`masDificilDeCocinar` no necesita emplear operadores lógicos": 
   ! uses logic;
+  
+expectation "`masDificilDeCocinar` debe utilizar `longitud`":
+  within `masDificilDeCocinar` uses `longitud` || within `masDificilDeCocinar` uses `length`;
