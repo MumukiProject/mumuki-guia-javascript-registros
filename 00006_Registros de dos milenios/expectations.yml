@@ -8,4 +8,4 @@ expectations:
   inspection: DeclaresComputationWithArity1:esDelMilenioPasado
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: esDelMilenioPasado
-  inspection: Not:Uses:if
+  inspection: Not:UsesIf
