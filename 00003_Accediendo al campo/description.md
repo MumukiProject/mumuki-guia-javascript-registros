@@ -14,4 +14,5 @@ Esa consulta era porque estábamos viendo al registro `tajMahal` completo, inclu
 1653
 ```
 
-> Declaramos los planetas `mercurio`, `marte` y `saturno` como registros con la siguiente información: `nombre`, `temperaturaPromedio` y si `tieneAnillos`. ¡Probalos en la consola!
+> Declaramos los planetas `mercurio`, `marte` y `saturno` como registros con la siguiente información: `nombre`, `temperaturaPromedio` y si `tieneAnillos`. 
+> Hacé las consultas necesarias en la consola para saber el nombre de `mercurio`, la temperatura promedio de `marte` y si `saturno` tiene anillos.
