@@ -3,9 +3,14 @@ locale: es
 tags: []
 layout: input_bottom
 editor: 0
-type: playground
+type: interactive
 extra_visible: true
 teacher_info: ''
 manual_evaluation: false
 choices: []
+goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  kind: last_query_outputs
+  output: '[{nombre:"Monumento Nacional a la Bandera",locacion:"Rosario, Argentina",anioDeConstruccion:1957},{nombre:"Estatua
+    de la Libertad",locacion:"Nueva York, Estados Unidos de América",anioDeConstruccion:1886},{nombre:"Cristo
+    Redentor",locacion:"Rio de Janeiro, Brasil",anioDeConstruccion:1931}]'
 name: Listas de registros
