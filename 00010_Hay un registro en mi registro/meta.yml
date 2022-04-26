@@ -10,7 +10,5 @@ manual_evaluation: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_outputs
-  output: '["galletitas","dulce de leche","crema"]
-
-'
+  output: '["galletitas","dulce de leche","crema"]'
 name: Hay un registro en mi registro
